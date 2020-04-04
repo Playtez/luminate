@@ -1,0 +1,15 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+@import '~@luminate/gatsby-theme-luminate/src/styles/theme.css';
+
+.sidebar-width {
+  max-width: 240px;
+}
+
+.header-shadow {
+  box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.2);
+}
+
+/* purgecss end ignore */
+@tailwind utilities;
